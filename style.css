@@ -1,0 +1,96 @@
+@font-face {
+  font-family: yekan;
+  src: url(../figma/font/BASKVILL.TTF);
+}
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(../figma/pic/41.gif);
+  font-family: yekan;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-color: #423d90;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  color: #ebeaf0;
+  width: 644px;
+  height: 174px;
+  top: 208px;
+  right: 696px;
+  font-family: Yekan Bakh;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 86.8px;
+  text-align: right;
+}
+p1 {
+  width: 644px;
+  height: 45px;
+  top: 391px;
+  left: 696px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Yekan Bakh;
+  font-size: 29.14px;
+  font-weight: 400;
+  line-height: 45.16px;
+  text-align: right;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  }
+p2 {
+  font-family: Yekan Bakh;
+  font-size: 29.14px;
+  font-weight: 400;
+  line-height: 45.16px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(158, 158, 224, 0.027);
+  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+ul li {
+  color: white;
+  list-style-type: none;
+}
+ul li:first-child {
+  font-size: 15px;
+  font-weight: bold;
+}
+button {
+  height: 51px;
+  width: 176px;
+  background-color: #6f4efd;
+  color: white;
+  border-radius: 5px;
+  font-family: yekan;
+  border: none;
+}
